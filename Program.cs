@@ -21,7 +21,7 @@ var json = JsonConvert.SerializeObject(chapterList);
 string? js = JsonConvert.DeserializeObject(json).ToString();
 
 string pathJson = @"MyTest.json";
-//просто строка для теста
+//просто строка для 
 
 
 if (CreateFileJson(js, pathJson))
